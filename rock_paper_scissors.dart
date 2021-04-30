@@ -13,7 +13,6 @@ void main() {
     stdout.write('Rock, paper or scissors? (r, p, s) ');
     final input = stdin.readLineSync();
     if (input == 'r' || input == 'p' || input == 's') {
-      // ignore: unused_local_variable
       var playerMove;
       if (input == 'r') {
         playerMove = Move.rock;
